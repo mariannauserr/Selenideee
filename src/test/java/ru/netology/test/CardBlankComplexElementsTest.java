@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$;
 
-public class CardBlankTestComplexElementsV1 {
+public class CardBlankComplexElementsTest {
     @BeforeEach
     void open() {
         Selenide.open("http://localhost:9999/");

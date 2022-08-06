@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static org.openqa.selenium.Keys.BACK_SPACE;
-public class CardBlankTestV1 {
+public class CardBlankTest {
     @BeforeEach
     void open() {
         Selenide.open("http://localhost:9999/");
